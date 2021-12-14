@@ -25,7 +25,7 @@ namespace Diamond
                    string.Join(Environment.NewLine, bottomHalf);
         }
         
-        public List<string> BuildTopHalf(char midCharacter)
+        private List<string> BuildTopHalf(char midCharacter)
         {
             var topHalf = new List<string>();
             for (var ch = CHAR_A;ch <= midCharacter; ch++)
